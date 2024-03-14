@@ -1,6 +1,6 @@
 # Azure Swagger File Fix
 
-Azure API Management current does not support swagger files that use 'hostTemplate' and the swagger will be imported incorrectly.  The pupose of this repo is to provide a simple script that will update the swagger file.
+Azure API Management current does not support swagger files that use 'x-ms-parameterized-host' and the swagger will be imported incorrectly.  The pupose of this repo is to provide a simple script that will update the swagger file.
 
 For this sample, we are using the Azure AI Search swagger file.  The original swagger file can be found [here](https://raw.githubusercontent.com/Azure/azure-rest-api-specs/master/specification/search/data-plane/Azure.Search/stable/2023-11-01/searchindex.json).
 
